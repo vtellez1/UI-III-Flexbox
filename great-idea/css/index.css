@@ -64,3 +64,213 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	margin: 0 auto;
+	width: 900px;
+	}
+
+.header{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav a{
+text-decoration: none;
+color: gray;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 117px;
+height: 50px;
+}
+
+
+.topsection{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding: 60px 0px;
+}
+
+.topsectionleft{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+}
+
+.title{
+font-size: 80px;
+text-align: center;
+height: 250px;
+width: 300px;
+}
+
+.button{
+border: 1px solid black;
+width: 190px;
+padding: 8px 0px;
+text-align: center;
+}
+
+.topsectionright{
+	display: flex;
+}
+
+.twosections{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0px;
+}
+
+.features{
+width: 49%;
+}
+
+.about{
+width: 49%;
+}
+
+.midimage{
+	display: flex;
+	width: 100%;
+}
+
+.threesections{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0px;
+	border-bottom: 1px solid black;
+}
+
+.services{
+width: 31%;
+}
+
+.product{
+width: 31%;
+}
+
+.vision{
+width: 31%;
+}
+
+.bottom{
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0px;
+}
+
+.footer .space{
+line-height: 2.5;
+}
+
+.copyright{
+	text-align: center
+}
+
+/* Start of CSS code for Services Page*/
+
+body{
+	margin: 0 auto;
+	width: 900px;
+	}
+
+.services-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.services-nav{
+	display: flex;
+	flex-direction: row;
+}
+
+.services-nav a{
+text-decoration: none;
+color: gray;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 117px;
+height: 50px;
+}
+
+.services-header-img{
+	padding: 25px 0px;
+}
+
+.services-des{
+	padding-top: 15px;
+	padding-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+border-bottom: 2px solid black;
+}
+
+.services-des h1{
+font-size: 30px;
+}
+
+.sixBox{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.box{
+	border: 1px solid black;
+	background-color: gainsboro;
+	width: 44%;
+	padding: 20px;
+	margin: 25px;
+}
+
+.learnmore{
+	border: 1px solid black;
+	background-color: white;
+	padding: 7px 0px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 12px;
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.ServicesBottom{
+	margin-top: 30px;
+	border-top: 2px solid black;
+display: flex;
+justify-content: space-between;
+padding: 40px 0;
+}
+
+.Facts{
+	width: 44%;
+	text-align: left;
+}
+
+.Facts ul{
+list-style-type: square;
+line-height: 1.75;
+list-style-position: inside;
+}
+
+.sectionCopyright{
+	text-align: center;
+	margin-bottom: 40px;
+}
